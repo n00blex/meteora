@@ -1,7 +1,31 @@
+:root {
+  --btn-primary: #9353ff;
+  --special-green: #daff01;
+}
+
 .small-text {
   font-size: 13px;
 }
 
 .sm-grid {
   width: 325px;
+}
+
+.btn-comprar {
+  background-color: var(--btn-primary);
+}
+
+.i-green,
+.text-green {
+  color: var(--special-green);
+}
+
+.carrousel-text-position {
+  top: 65%;
+}
+
+@media (max-width: 576px) {
+  .carrousel-text-position {
+    top: 70%;
+  }
 }
